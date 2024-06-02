@@ -34,7 +34,7 @@ function App() {
         <div className="Card">
           <b>{WebApp.platform}</b>
           <br />
-          <b>{WebApp.backgroundColor}</b>
+          <b>{WebApp.colorScheme}</b>
           <br />
           <b>Contract address:</b>
           <div className="Hint">{contract_address ?? "loading..."}</div>
